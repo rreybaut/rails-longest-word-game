@@ -1,6 +1,12 @@
-<h1>Score</h1>
+<div>
+  <h1>Score</h1>
+  <%= link_to "new", new_path, id:"link" %>
+</div>
 
-
-
-
-<%= link_to "new", ask_path, id:"link" %>
+<div class="cases">
+  <span id="letters" ><%= @letters %></span>
+</div>
+<p>Votre proposition : <%= @saisie %></p>
+<div class="cases">
+  <span id="reponse" ><%= @reponse %></span>
+</div>

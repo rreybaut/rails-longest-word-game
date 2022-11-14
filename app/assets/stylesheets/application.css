@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+  @import url(/app/assets/stylesheets/link.css);
+h1 {
+  color: white;
+  text-shadow: 1px 4px 15px #361f6185;
+}
+  #top
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: 0px 5px 16px rgb(204 168 177);    }
+  body
+  {
+    margin: 0;
+    text-align: center;
+    font-size: 42px;
+    font-family: cursive;
+    background-color: #d2d2d2;
+}
